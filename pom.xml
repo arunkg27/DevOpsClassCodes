@@ -15,6 +15,18 @@
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0x8am30d0sia-artifactory-primary-0-releases</name>
+        <url>https://garunk27.jfrog.io/artifactory/default-maven-virtual</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0x8am30d0sia-artifactory-primary-0-snapshots</name>
+        <url>https://garunk27.jfrog.io/artifactory/default-maven-virtual</url>
+    </snapshotRepository>
+</distributionManagement>
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
